@@ -15,6 +15,9 @@ agent:
 
 # Training settings
 train:
-  episodes: 1000        # total episodes to train
-  eval_interval: 50     # how often (in episodes) to run evaluation
+  episodes: 400        # total episodes to train
+  eval_interval: 20     # how often (in episodes) to run evaluation
   eval_episodes: 5      # number of episodes to evaluate
+  max_steps: 500
+  steps: 100000
+  eval_steps: 5000
